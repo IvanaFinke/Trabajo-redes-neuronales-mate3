@@ -8,7 +8,10 @@ from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import matplotlib.pyplot as plt
 
 #Se inicializa la ruta de la carpeta de training y de validacion
+#Train tiene 80% de los datos
 TRAIN_DIR = "assets/train"
+#Val tiene 20% de los datos
+#Test tiene 10% de los datos
 VAL_DIR = "assets/val"
 
 #Tamaño y propiedades de las imagenes durante el testeo
